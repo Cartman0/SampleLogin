@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015/12/26, 4:41:44
+    Author     : nabana
+*/
+* {
+    font-family: Meiryo;
+    font-size: 20px; 
+}
+
+html, body{
+    background-color: #fafafa;
+}
+
+.loginPane {
+    display: block;
+    background: #fafafa;
+    width  : 25rem;
+    padding: 1rem;
+    margin : .5rem auto;
+    border : .1rem solid #ccc;
+}
+
+.loginPane__title {
+    background: #eee;
+    padding: .5rem;
+    border : .1rem solid #ccc;
+    font-size: 2.2rem;
+}
+
+.loginPane__description{
+    font-weight: normal;
+}
+
+.loginPane__tableForm {
+    background: #fafafa;
+    padding: .5rem;
+    margin : 1rem auto;
+    border : .1rem solid #ccc;
+}
+
+.loginPane__tableForm__head{
+    padding: .3rem;
+    font-weight: normal;
+}
+
+.loginPane__tableForm__data{
+    padding: .3rem;
+}
+
+.input_common{
+    padding: .3rem;
+}
+
+.btn {
+    display: block;
+    width  : 6rem;
+    font-size : 1rem;
+    text-align: center;
+    padding: .5rem;
+    margin : 1rem auto;
+    border-radius: .3rem;
+}
+.btn.btn_common{
+    color: #fafafa;
+    background-color: #49a9d4;
+}
